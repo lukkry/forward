@@ -14,9 +14,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = Forward::VERSION
 
-  gem.add_dependency 'json', '~> 1.7.7'
+  gem.add_dependency 'json', '~> 1.8'
   gem.add_dependency 'highline', '~> 1.6.18'
-  gem.add_dependency 'net-ssh', '~> 2.6.7'
+  gem.add_dependency 'net-ssh', '~> 2.7'
 
   gem.add_development_dependency 'minitest', '~> 3.0.0'
   gem.add_development_dependency 'mocha', '~> 0.11.4'
